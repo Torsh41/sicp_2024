@@ -6,7 +6,7 @@ All of the programs are written in Common LISP (almost).
 
 ### NOTE
 
-There is a noteworthy [program](diffdifferential_eq/main.lisp), that solves a parametrised multidimentional differential equation, with the given format:
+There is a noteworthy [program](differential_eq/main.lisp), that solves a parametrised multidimentional differential equation, with the given format:
 ```
 ∂u     ∂u     ∂²u
 -- + υ -- = σ --- + f(u,t,x)
