@@ -1,3 +1,22 @@
+### Lab assignments for the course Structure and Interpretation of Computer Programs (SICP)
+
+This repository contains small programs that implement features of the Functional and OO paradigms. The collection of programs, in some order, follows progression of the SICP book, creating procedures, doing abstractions, implementing recursions, and so on.
+
+All of the programs are written in Common LISP (almost).
+
+### NOTE
+
+There is a noteworthy [program](diffdifferential_eq/main.lisp), that solves a parametrised multidimentional differential equation, with the given format:
+```
+∂u     ∂u     ∂²u
+-- + υ -- = σ --- + f(u,t,x)
+∂t     ∂x     ∂x²
+```,
+with defined boundary conditions (the Cauchy problem). The output of the program is a `.csv` file, containing a surface - solution of the differential equation.
+
+The program is very difficult to follow, as it uses a lot of unnecessary abstraction, pure function and data streams.
+
+
 ### Лабораторные работы по предмету Структура и Интерпретация Компуктерного Програмирования (SICP)
 
 #### Список файлов
