@@ -11,7 +11,7 @@ There is a noteworthy [program](diffdifferential_eq/main.lisp), that solves a pa
 ∂u     ∂u     ∂²u
 -- + υ -- = σ --- + f(u,t,x)
 ∂t     ∂x     ∂x²
-```,
+```
 with defined boundary conditions (the Cauchy problem). The output of the program is a `.csv` file, containing a surface - solution of the differential equation.
 
 The program is very difficult to follow, as it uses a lot of unnecessary abstraction, pure function and data streams.
